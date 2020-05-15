@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <h1>Please enter the name of a city to find the current weather</h1>
+  <div class="newsection">
+
+    <form class="" action="/" method="post">
+      <input class="inputbox btn-block" type="text" name="cityName" value="" placeholder="Please enter the name of a city">
+      <button type="submit" class=" btn btn-primary btn-block" name="button">Enter</button>
+    </div>
+    </form>
+
+
+
+  <div class="location">
+    <h1 class="location-timezone">Timezone </h1>
+    <p class="iconclass">#Icon</p>
+  </div>
+  <div class="temperature">
+    <div class="degree-section">
+      <h2 class="temperature-degree">#{temp}</h2>
+      <div class="temperature-description">Its soo warm</div>
+      <span class="spanclass">F</span>
+    </div>
+  </div>
+
+  <script src="server.js" charset="utf-8"></script>
+</body>
+
+</html>
